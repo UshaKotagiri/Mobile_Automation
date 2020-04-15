@@ -1,0 +1,10 @@
+# Test Configuration Registry
+androidphone-dw:
+    mode: remote
+    os: android
+    browser: app
+    server : https://0.0.0.0:4723/wd/hub
+    deviceName: "androidOne"
+    deviceId: "R58MB4DNW9J"    
+    platformName: "Android"
+    launchTimeout: "100000"
