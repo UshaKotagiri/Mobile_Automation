@@ -16,7 +16,7 @@ import cucumber.api.junit.Cucumber;
 		"html:target/cucumber-report.html", "junit:target/cucumber-report.xml" },
 				 glue = {"com.hashmusic.stepdefinitions"}, monochrome= true,
 
-		features = {"feature/SongsScreen.feature"})
+		features = {"src/test/resources/feature/UpperMenu.feature"})
 				 
 
 public class CukeRunner {
